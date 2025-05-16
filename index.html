@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations & localStorage Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Animation & Preferences Demo</h1>
+        
+        <div class="animation-box" id="animatedBox">
+            Watch me animate!
+        </div>
+        
+        <button id="triggerBtn">Trigger Animation</button>
+        
+        <div class="preferences">
+            <h2>User Preferences</h2>
+            <label for="bgColor">Background Color:</label>
+            <input type="color" id="bgColor" value="#ffffff">
+            
+            <label for="animationSpeed">Animation Speed:</label>
+            <select id="animationSpeed">
+                <option value="slow">Slow</option>
+                <option value="normal" selected>Normal</option>
+                <option value="fast">Fast</option>
+            </select>
+            
+            <button id="savePrefs">Save Preferences</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
